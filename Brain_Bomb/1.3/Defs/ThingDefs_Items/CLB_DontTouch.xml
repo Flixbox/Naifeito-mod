@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--=========== さわるな ============-->
+  <ThingDef ParentName="ResourceBase">
+    <thingClass>ThingWithComps</thingClass>
+    <defName>CLB_DontTouchSwitch</defName>
+    <label>爆破装置</label>
+    <description>小型チップに取り付けられたアンテナに信号を送信し、自爆装置を身に着けている者を爆破する。</description>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+        <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/DontTouch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeability>Sellable</tradeability>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.5</Mass>
+    </statBases>
+     <costList>
+        <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Fabrication</researchPrerequisite>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <comps>
+      <li Class="CompLivingBomb.CLB_CompProperties_FireSwitch">
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

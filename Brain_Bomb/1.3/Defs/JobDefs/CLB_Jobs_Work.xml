@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--============= Sacrifice ===============-->
+  
+  <JobDef>
+    <defName>CLB_Jobs_PushSwitch</defName>
+    <driverClass>CompLivingBomb.TS_JobDriver_PuchSwitch</driverClass>
+    <reportString>スイッチを押している。</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  
+</Defs>
