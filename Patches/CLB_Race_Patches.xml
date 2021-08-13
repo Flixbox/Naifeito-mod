@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName="Human"]/comps</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Human"]</xpath>
+				<value>
+					<comps/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Human"]/comps</xpath>
+		<value>
+			<li Class="CompLivingBomb.CLB_CompProperties_SlaveController">
+                <commandLabel>Goto</commandLabel>
+				<commandDesc>Move to the designated location.</commandDesc>
+				<commandIcon>Icon/Command/CLB_SlaveControll</commandIcon>
+				<needHediff>CLB_LivingBomb_Remote</needHediff>
+            </li>
+		</value>
+	</Operation>
+
+</Patch>
