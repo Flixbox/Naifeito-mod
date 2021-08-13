@@ -4,4 +4,9 @@
     <CLB_DontTouchSwitch.label>Self-detonation device</CLB_DontTouchSwitch.label>
     <CLB_DontTouchSwitch.description>This device sends a signal to an antenna attached to a small chip to blow up anyone wearing a self-destruct device.</CLB_DontTouchSwitch.description>
 
+    <CLB_LivingBomb_Remote.label>Self-destruct device (remote)</CLB_LivingBomb_Remote.label>
+    <CLB_LivingBomb_Remote.description>This is a small chip with an explosion module. It causes an explosion upon death.</CLB_LivingBomb_Remote.description>
+
+    <CLB_LivingBomb.label>Self-destruct device (not remote)</CLB_LivingBomb.label>
+    <CLB_LivingBomb.description>This is a small chip with an explosion module. It causes an explosion upon death.</CLB_LivingBomb.description>
 </LanguageData>
