@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <CLB_LivingBomb_Remote.label>Self-detonation device</CLB_LivingBomb_Remote.label>
+    <CLB_LivingBomb_Remote.labelNoun>Self-detonation device</CLB_LivingBomb_Remote.labelNoun>
+    <CLB_LivingBomb_Remote.description>A small chip implanted in the brain. Causes an explosion upon death.</CLB_LivingBomb_Remote.description>
+
+    <CLB_InstallLivingBomb_Remote.label>Install self-detonation device</CLB_InstallLivingBomb_Remote.label>
+    <CLB_InstallLivingBomb_Remote.description>Implant a self-detonation device in the brain.</CLB_InstallLivingBomb_Remote.description>
+    <CLB_InstallLivingBomb_Remote.jobString>implanting a bioweapon</CLB_InstallLivingBomb_Remote.jobString>
+
+
+    <CLB_LivingBomb.label>Self-detonation device (not remote)</CLB_LivingBomb.label>
+    <CLB_LivingBomb.labelNoun>Self-detonation device (not remote)</CLB_LivingBomb.labelNoun>
+    <CLB_LivingBomb.description>A small chip implanted in the brain. Causes an explosion upon death. It cannot be detonated remotely.</CLB_LivingBomb.description>
+
+</LanguageData>
