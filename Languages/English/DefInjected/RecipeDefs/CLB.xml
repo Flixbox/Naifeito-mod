@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <CLB_InstallLivingBomb_Remote.label>Install self-detonation device (remote)</CLB_InstallLivingBomb_Remote.label>
+    <CLB_InstallLivingBomb_Remote.description>Implant a self-detonation device in the brain. Can be detonated remotely.</CLB_InstallLivingBomb_Remote.description>
+    <CLB_InstallLivingBomb_Remote.jobString>implanting a bioweapon</CLB_InstallLivingBomb_Remote.jobString>
+
+
+    <CLB_InstallLivingBomb.label>Install self-detonation device (not remote)</CLB_InstallLivingBomb.label>
+    <CLB_InstallLivingBomb.description>Implant a self-detonation device in the brain. Can not be detonated remotely.</CLB_InstallLivingBomb.description>
+    <CLB_InstallLivingBomb.jobString>implanting a bioweapon</CLB_InstallLivingBomb.jobString>
+
+</LanguageData>
